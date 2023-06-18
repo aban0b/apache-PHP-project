@@ -1,0 +1,6 @@
+---
+- name: Install LAMP stack
+  hosts: Webserver1
+  become: true
+  roles:
+   - apache
